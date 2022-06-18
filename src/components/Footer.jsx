@@ -127,10 +127,10 @@ const Footer = () => {
       <Right>
         <Title>Contact</Title>
         <ContactItem>
-          <Room style={{marginRight:"10px"}}/> 692 Balewadi High Street , Pune 98336
+          <Room style={{marginRight:"10px"}}/> 127 Balewadi High Street , Pune 411045
         </ContactItem>
         <ContactItem>
-          <Phone style={{marginRight:"10px"}}/> +91 9347740443
+          <Phone style={{marginRight:"10px"}}/> +91 9876543210
         </ContactItem>
         <ContactItem>
           <MailOutline style={{marginRight:"10px"}} /> contact@gmail.com
