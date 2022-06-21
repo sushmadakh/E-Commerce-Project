@@ -6,18 +6,22 @@ import Navbar from "../components/Navbar";
 import Newsletter from "../components/Newsletter";
 import Products from "../components/Products";
 import Slider from "../components/Slider";
-
+//import { Outlet} from "react-router-dom";
 const Home = () => {
   return (
+    <>
     <div>       
       <Announcement />
-      <Navbar />
+      <Navbar></Navbar>
       <Slider />
       <Categories />
       <Products/>
       <Newsletter/>
       <Footer/>    
     </div>
+    
+    </>
+    
    
   );
 };

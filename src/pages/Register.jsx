@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { mobile } from "../responsive";
+//import { Outlet} from "react-router-dom";
 
 const Container = styled.div`
   width: 100vw;
@@ -56,6 +57,7 @@ const Button = styled.button`
 
 const Register = () => {
   return (
+    <>
     <Container>
       <Wrapper>
         <Title>CREATE AN ACCOUNT</Title>
@@ -74,6 +76,8 @@ const Register = () => {
         </Form>
       </Wrapper>
     </Container>
+    
+    </>
   );
 };
 
